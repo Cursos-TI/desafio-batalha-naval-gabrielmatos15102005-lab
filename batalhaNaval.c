@@ -18,6 +18,11 @@ int main() {
 
     // Navio horizontal
 
+    navioHorizontal[0][0] = 5; navioHorizontal[0][1] = 7;
+    navioHorizontal[1][0] = 6; navioHorizontal[1][1] = 7;
+    navioHorizontal[2][0] = 7; navioHorizontal[2][1] = 7;
+
+
     
 
     return 0;
