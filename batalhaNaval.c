@@ -34,5 +34,17 @@ int main() {
         }
 
 
+    printf("\n=== Coordenadas do Navio Horizontal ===\n");
+    for (int i = 0; i < 3; i++) {
+        printf("Parte %d: (X = %d, Y = %d)\n",
+            i + 1,
+            navioHorizontal[i][0],
+            navioHorizontal[i][1]);
+        }
+
+
+
+
+
     return 0;
 }
