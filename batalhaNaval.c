@@ -23,7 +23,16 @@ int main() {
     navioHorizontal[2][0] = 7; navioHorizontal[2][1] = 7;
 
 
-    
+    // Exibição das Coordenadas
+
+    printf("=== Coordenadas do Navio Vertical ===\n");
+    for (int i = 0; i < 3; i++) {
+        printf("Parte %d: (X = %d, Y = %d)\n",
+            i + 1,
+            navioVertical[i][0],
+            navioVertical[i][1]);
+        }
+
 
     return 0;
 }
